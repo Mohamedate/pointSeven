@@ -1,0 +1,143 @@
+* { 
+    letter-spacing: normal;
+}
+
+/*------------
+heading 
+--------------*/
+
+.top .container div:nth-child(2) {
+    margin-right: 1.5rem;
+    margin-left: 0;
+}
+.top .container {
+    direction: rtl;
+}
+.bottom .container { 
+    direction: ltr;
+}
+.bottom .navbar-nav { 
+    align-items: flex-start;
+}
+.nav-item { 
+    font-size: 1.6rem;
+    margin-left: 2.5rem;
+    font-weight: 600;
+}
+.nav-item:nth-child(3) { 
+    text-align: right;
+    direction: rtl;
+}
+@media (max-width: 990px) {
+    .nav-item { 
+        margin-left: 1rem;
+     
+    }
+}
+.home .info  h1 { 
+    font-size: 5.9rem;
+    margin-bottom: 1.5rem;
+}
+.home .info p {
+    font-size:1.8rem ;
+    max-width: 40rem;
+    font-weight: 300;
+}
+@media (max-width: 768px) {
+    .home .info  h1 { 
+        font-size: 4rem;
+    }
+    .home .info p {
+        font-size: 1.6rem;
+        max-width: 30rem;
+    }
+}
+.home .info .btn,
+.home .info .btn2 { 
+    height: 5rem;
+    line-height: 2rem;
+    margin-left: 1rem;
+    margin-right: 0;
+}
+.heading { 
+    direction: ltr;
+}
+.top .container div,
+.navbar { 
+    direction: rtl;
+}
+.navbar-nav { 
+    direction: rtl;
+}
+.nav-item .drop-link { 
+    left: -109%;
+}
+@media (max-width:768px) {
+    .nav-item .drop-link { 
+        left: 0%;
+    }
+}
+.nav-item .drop-link li a { 
+text-align: right;
+}
+.nav-item .drop-link li a:hover { 
+    transform: translateX(-5%);
+}
+/*------------
+service 
+--------------*/
+.gellary .image-holder .image p {
+    right: 2.5rem;
+}
+/*------------
+last work
+--------------*/
+.services .container {
+    direction: ltr;
+}
+/*------------
+location
+--------------*/
+.location .info h1 { 
+
+    font-size: 7rem;
+}
+@media (max-width: 768px) {
+    .location .info h1 { 
+        font-size: 5rem;
+    }
+}
+/*------------
+sections
+--------------*/
+.product .left-s li:hover a,
+.product .left-s li a.active {
+    transform: translateX(-2rem);
+    color: var(--blue);
+}
+/*------------
+footer
+--------------*/
+.footer .box-three .contact-info div i {
+    margin-left: 2rem;
+    margin-right: 0;
+}
+/*------------
+animation clients
+--------------*/
+@keyframes scroll {
+    0% { 
+        transform: translateX(0);
+    }
+    100% { 
+        transform: translateX(calc(30rem * 7));
+    }
+}
+@keyframes scroll-right {
+    0% { 
+        transform: translateX(calc(30rem * 7));
+    }
+    100% { 
+        transform: translateX(0);
+    }
+}
